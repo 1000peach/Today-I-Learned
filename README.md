@@ -27,7 +27,12 @@ React 공부한 내용을 정리하는 곳
     
     7.2 [App에서 useReducer 사용](https://github.com/1000peach/React-Study/tree/master/07.%20useReducer/07-02.%20App%EC%97%90%EC%84%9C%20useReducer%20%EC%82%AC%EC%9A%A9)
 
-8. **[Contenxt API](https://github.com/1000peach/React-Study/blob/master/08.%20Context%20API/01.%20Context%20API.md)**
+8. **Context API**
+
+    8.1 [Context API]()
+    
+    8.2 [Dispatch Context]()
+
 
 ## 📂 구조
 * 참고 코드가 없거나 간단한 경우 `*.md` 파일에 내용 기록
