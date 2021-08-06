@@ -1,0 +1,41 @@
+.Page {
+  padding: 20px;
+  height: 100vh;
+
+  &_h1 {
+    color: black;
+  }
+
+  &_p {
+    color: black;
+  }
+
+  &_button {
+    float: right;
+    padding: 10px 20px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 5px;
+    background: #6b66ff;
+    color: white;
+
+    cursor: pointer;
+
+    &--active {
+      border: 1px solid #6b66ff;
+      background: transparent;
+      color: #6b66ff;
+    }
+  }
+
+  &:global(.isDarkMode) {
+    background: #3a3a3a;
+
+    .Page_h1,
+    .Page_p {
+      color: white;
+    }
+  }
+}
